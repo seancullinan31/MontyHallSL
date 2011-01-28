@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="MontyHallSL.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5">
+    <Border BorderBrush="Black" BorderThickness="4" CornerRadius="5">
+        <Grid x:Name="LayoutRoot" Background="White" Height="303" Width="463">
+            <sdk:Label Content="Stick With Choice" Height="29" HorizontalAlignment="Left" Margin="137,82,0,0" Name="Label1" VerticalAlignment="Top" Width="149" FontWeight="Bold" HorizontalContentAlignment="Center" />
+            <sdk:Label Content="Switch Choice" Height="28" HorizontalAlignment="Left" Margin="343,83,0,0" Name="Label2" VerticalAlignment="Top" FontWeight="Bold" HorizontalContentAlignment="Center" />
+            <sdk:Label Content="Got The Goat:" Height="25" HorizontalAlignment="Left" Margin="23,111,0,0" Name="Label3" VerticalAlignment="Top" Width="107" />
+            <sdk:Label Content="Got The Car:" Height="28" HorizontalAlignment="Left" Margin="23,142,0,0" Name="Label4" VerticalAlignment="Top" Width="107" />
+            <sdk:Label Content="0" Height="25" HorizontalAlignment="Left" Margin="194,111,0,0" Name="lblStuckGoat" VerticalAlignment="Top" Width="52" HorizontalContentAlignment="Center" />
+            <sdk:Label Content="0" Height="25" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="194,142,0,0" Name="lblStuckCar" VerticalAlignment="Top" Width="52" />
+            <sdk:Label Content="0" Height="25" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="378,111,0,0" Name="lblSwitchGoat" VerticalAlignment="Top" Width="52" />
+            <sdk:Label Content="0" Height="25" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="378,142,0,0" Name="lblSwitchCar" VerticalAlignment="Top" Width="52" />
+            <ProgressBar Height="40" HorizontalAlignment="Left" Margin="19,250,0,0" Name="ProgressBar1" VerticalAlignment="Top" Width="367" />
+            <Button Content="Go" Height="42" HorizontalAlignment="Left" Margin="392,250,0,0" Name="Button1" VerticalAlignment="Top" Width="54" />
+            <sdk:Label Content="Percentage Right:" Height="28" HorizontalAlignment="Left" Margin="23,176,0,0" Name="Label5" VerticalAlignment="Top" Width="107" />
+            <sdk:Label Content="0" Height="25" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="194,176,0,0" Name="lblStuckPercentage" VerticalAlignment="Top" Width="52" />
+            <sdk:Label Content="0" Height="25" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="378,176,0,0" Name="lblSwitchPercentage" VerticalAlignment="Top" Width="52" />
+            <sdk:Label Content="Number of Trials:" Height="30" HorizontalAlignment="Left" Margin="23,210,0,0" Name="Label6" VerticalAlignment="Top" Width="156" />
+            <TextBox Height="22" HorizontalAlignment="Left" Margin="185,210,0,0" Name="txtTrialNumber" VerticalAlignment="Top" Width="69" Text="2000" />
+            <sdk:Label Height="39" HorizontalAlignment="Left" Margin="23,250,0,14" Name="lblComplete" VerticalAlignment="Center" Width="353" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFD80000" Visibility="Collapsed" FontWeight="Bold" />
+            <Image Height="101" HorizontalAlignment="Left" Margin="6,6,0,0" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="107" Source="/MontyHallSL;component/Images/MontyHall.jpg" />
+            <sdk:Label Content="Monty Hall Tester" Height="54" HorizontalAlignment="Left" Margin="137,18,0,0" Name="Label7" VerticalAlignment="Top" Width="354" FontWeight="Bold" FontSize="32" FontFamily="Arial" Foreground="#FFB41010" />
+        </Grid>
+    </Border>
+</UserControl>
