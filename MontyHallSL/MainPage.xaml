@@ -24,7 +24,7 @@
             <TextBox Height="22" HorizontalAlignment="Left" Margin="185,210,0,0" Name="txtTrialNumber" VerticalAlignment="Top" Width="69" Text="2000" />
             <sdk:Label Height="39" HorizontalAlignment="Left" Margin="23,250,0,14" Name="lblComplete" VerticalAlignment="Center" Width="353" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFD80000" Visibility="Collapsed" FontWeight="Bold" />
             <Image Height="101" HorizontalAlignment="Left" Margin="6,6,0,0" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="107" Source="/MontyHallSL;component/Images/MontyHall.jpg" />
-            <sdk:Label Content="Monty Hall Tester 2" Height="54" HorizontalAlignment="Left" Margin="137,18,0,0" Name="Label7" VerticalAlignment="Top" Width="354" FontWeight="Bold" FontSize="32" FontFamily="Arial" Foreground="#FFB41010" />
+            <sdk:Label Content="Monty Hall Tester" Height="54" HorizontalAlignment="Left" Margin="137,18,0,0" Name="Label7" VerticalAlignment="Top" Width="354" FontWeight="Bold" FontSize="32" FontFamily="Arial" Foreground="#FFB41010" />
         </Grid>
     </Border>
 </UserControl>
